@@ -1,0 +1,10 @@
+The time for finding 1000 words in around 25000 words(otherwise it is not enough memory)
+
+
+Time with list: 0.1898350715637207 sec
+Time with alphabet bst: 1.7092580795288086 sec
+Time with random bst: 0.0032088756561279297 sec
+Time with rebalanced bst: 0.002178192138671875 sec
+
+
+As we can see the best time is using rebalanced bst and the worst is with alphabet bst(because the time to find elem is maximum here)
