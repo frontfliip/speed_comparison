@@ -346,6 +346,7 @@ class LinkedBST(AbstractCollection):
         for word in rand_words:
             bst.find(word)
         return time.time() - begin_time
+
     def bst_rebalanced_speed(self, rand_words, all_words):
         bst = LinkedBST()
         for word in all_words:
